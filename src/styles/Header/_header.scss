@@ -1,0 +1,38 @@
+header {
+  height: 80px;
+  background-color: #2e2a39;
+  color: #fff;
+  padding: 0px 60px;
+  display: flex;
+  justify-content: space-between;
+
+  .header-posts-btn {
+    color: #f2622b;
+    background-color: rgba(252, 224, 213, 0.12);
+    text-decoration: none;
+    border-radius: 12px;
+    padding: 11px 23px;
+    height: 42px;
+    box-sizing: border-box;
+    align-self: center;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 13px;
+  }
+  .header-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    .header-btn {
+      font-family: "Poppins";
+      background-color: #f2622b;
+      color: #fff;
+      border: none;
+      border-radius: 12px;
+      padding: 11px 23px;
+      font-weight: 500;
+      cursor: pointer;
+    }
+  }
+}

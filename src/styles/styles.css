@@ -1,0 +1,302 @@
+.post__container {
+  font-family: "Poppins";
+  flex: 0 0 auto;
+  width: 33.3%;
+  padding: 0px 20px;
+  box-sizing: border-box;
+  text-align: start;
+}
+@media (max-width: 992px) {
+  .post__container {
+    width: 50%;
+  }
+}
+@media (max-width: 576px) {
+  .post__container {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+.post__container article {
+  padding: 30px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 33px -4px rgba(0, 0, 0, 0.15);
+  border-radius: 16px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.post__container .post__title {
+  font-size: 14px;
+  color: black;
+  min-height: 70px;
+}
+.post__container .post__author {
+  font-size: 12px;
+  color: #adadad;
+}
+.post__container .post__description {
+  color: #505050;
+}
+.post__container .read-more-btn {
+  border: none;
+  padding: 0px;
+  color: #F2622B;
+  background-color: transparent;
+  font-weight: 500;
+  padding-top: 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.posts__catalog {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 0px;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .posts__catalog {
+    max-width: 960px;
+  }
+}
+@media (min-width: 576px) and (max-width: 992px) {
+  .posts__catalog {
+    max-width: 720px;
+  }
+}
+@media (max-width: 576px) {
+  .posts__catalog {
+    max-width: 540px;
+  }
+}
+
+.pagination__buttons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 0px 0px 30px 0px;
+}
+.pagination__buttons .pagination-btn {
+  border: 1px solid #F2622B;
+  color: #505050;
+  background-color: transparent;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  transition: 0.2s;
+}
+.pagination__buttons .pagination-btn:hover {
+  background-color: #F2622B;
+  color: #FFF;
+}
+
+header {
+  height: 80px;
+  background-color: #2e2a39;
+  color: #fff;
+  padding: 0px 60px;
+  display: flex;
+  justify-content: space-between;
+}
+header .header-posts-btn {
+  color: #f2622b;
+  background-color: rgba(252, 224, 213, 0.12);
+  text-decoration: none;
+  border-radius: 12px;
+  padding: 11px 23px;
+  height: 42px;
+  box-sizing: border-box;
+  align-self: center;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 13px;
+}
+header .header-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header-buttons .header-btn {
+  font-family: "Poppins";
+  background-color: #f2622b;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  padding: 11px 23px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.postpage__container {
+  margin: 0px auto;
+  padding: 100px 30px;
+  border-bottom: 1px solid #adadad;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .postpage__container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 576px) and (max-width: 992px) {
+  .postpage__container {
+    max-width: 720px;
+  }
+}
+@media (max-width: 576px) {
+  .postpage__container {
+    max-width: 540px;
+  }
+}
+.postpage__container .postpage__title {
+  color: #f2622b;
+  text-align: start;
+  font-size: 24px;
+}
+.postpage__container .postpage__description {
+  text-align: start;
+}
+.postpage__container .postpage__author {
+  text-align: start;
+  color: #adadad;
+  font-size: 14px;
+  cursor: pointer;
+}
+.postpage__container .postpage__comments-container {
+  background-color: #efefef;
+  border-radius: 16px;
+  padding: 20px 20px;
+  box-sizing: border-box;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.postpage__container .postpage__comments-container .postpage__comments-header {
+  color: #f2622b;
+}
+.postpage__container .postpage__comments-container .postpage__comment-description {
+  font-size: 14px;
+}
+
+.loader {
+  height: 120px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.author-page {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  font-family: "Poppins";
+  gap: 50px;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .author-page {
+    max-width: 960px;
+  }
+}
+@media (min-width: 576px) and (max-width: 992px) {
+  .author-page {
+    max-width: 720px;
+  }
+}
+@media (max-width: 576px) {
+  .author-page {
+    max-width: 540px;
+  }
+  .author-page .author-page {
+    flex-wrap: wrap;
+  }
+}
+.author-page .author-information {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #efefef;
+}
+.author-page .author-name {
+  font-size: 24px;
+  color: #f2622b;
+}
+.author-page .author__posts-container {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  gap: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #efefef;
+}
+.author-page .author__posts-container p {
+  font-size: 24px;
+  color: #f2622b;
+}
+.author-page .author__posts-container .author__post {
+  cursor: pointer;
+}
+.author-page .author__posts-container .author__post:hover {
+  color: #f2622b;
+}
+
+.register-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 500px;
+  margin: 0 auto;
+  font-family: "Poppins";
+}
+.register-form-container button {
+  width: 100%;
+  margin-top: 20px;
+  border: none;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #2e2a39;
+  color: #fff;
+  font-family: "Poppins";
+}
+.register-form-container .form-error-msg {
+  position: absolute;
+  top: 70px;
+  color: rgb(203, 12, 12);
+}
+.register-form-container .form-input-wrapper {
+  position: relative;
+  text-align: start;
+}
+.register-form-container .form-input-wrapper input {
+  width: 100%;
+  box-sizing: border-box;
+  height: 40px;
+  border: 1px solid #f2622b;
+  border-radius: 16px;
+}
+
+.register-header {
+  color: #2e2a39;
+}
+
+p {
+  margin: 0px;
+}/*# sourceMappingURL=styles.css.map */

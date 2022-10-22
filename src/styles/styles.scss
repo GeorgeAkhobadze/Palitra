@@ -1,0 +1,12 @@
+@import "./variables.scss";
+@import "./Posts/post";
+@import "./Posts/postsCatalog";
+@import "./Posts/pagination";
+@import "./Header/header";
+@import "./Posts/postPage";
+@import "./Loader/loader";
+@import "./Author/authorPage";
+@import "./Authorization/signUpPage";
+p {
+  margin: 0px;
+}

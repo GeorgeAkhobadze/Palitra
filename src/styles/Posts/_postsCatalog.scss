@@ -1,0 +1,26 @@
+
+.posts__catalog {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 0px;
+
+    // Desktop Medium
+   @media(min-width: $tablet-width) and (max-width: $desktop-md-width) {
+    max-width: 960px;
+   }
+
+    //Tablet
+   @media(min-width: $mobile-width) and (max-width: $tablet-width) {
+    max-width: 720px;
+   }
+
+    //Mobile
+   @media(max-width: $mobile-width) {
+    max-width: 540px;
+   }
+}
+

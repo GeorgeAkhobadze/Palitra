@@ -1,0 +1,40 @@
+.register-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 500px;
+  margin: 0 auto;
+  font-family: "Poppins";
+  button {
+    width: 100%;
+    margin-top: 20px;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #2e2a39;
+    color: #fff;
+    font-family: "Poppins";
+  }
+
+  .form-error-msg {
+    position: absolute;
+    top: 70px;
+    color: rgb(203, 12, 12);
+  }
+
+  .form-input-wrapper {
+    position: relative;
+    text-align: start;
+    input {
+      width: 100%;
+      box-sizing: border-box;
+      height: 40px;
+      border: 1px solid #f2622b;
+      border-radius: 16px;
+    }
+  }
+}
+
+.register-header {
+  color: #2e2a39;
+}

@@ -1,0 +1,59 @@
+.postpage__container {
+  @media (min-width: $tablet-width) and (max-width: $desktop-md-width) {
+    max-width: 960px;
+  }
+
+  //Tablet
+  @media (min-width: $mobile-width) and (max-width: $tablet-width) {
+    max-width: 720px;
+  }
+
+  //Mobile
+  @media (max-width: $mobile-width) {
+    max-width: 540px;
+  }
+
+  margin: 0px auto;
+  padding: 100px 30px;
+  border-bottom: 1px solid #adadad;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  .postpage__title {
+    color: #f2622b;
+    text-align: start;
+    font-size: 24px;
+  }
+
+  .postpage__description {
+    text-align: start;
+  }
+
+  .postpage__author {
+    text-align: start;
+    color: #adadad;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  .postpage__comments-container {
+    background-color: #efefef;
+    border-radius: 16px;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .postpage__comments-header {
+      color: #f2622b;
+    }
+
+    .postpage__comment-description {
+      font-size: 14px;
+    }
+  }
+}
